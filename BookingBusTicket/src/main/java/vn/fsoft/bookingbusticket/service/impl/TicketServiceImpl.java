@@ -153,7 +153,9 @@ public class TicketServiceImpl implements TicketService {
 		if (list.isEmpty()) {
 			throw new NotFoundException("List ticket by NoneUserId not found!");
 		} else {
-			
+			for(Ticket t: list) {
+				
+			}
 		}
 		return null;
 	}
